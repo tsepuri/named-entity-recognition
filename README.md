@@ -18,7 +18,7 @@ The probability of a triple could be found by:
 Pr(e,t, c) = Pr(e)Pr(c|e)Pr(t|e,c) = Pr(e)Pr(c|e)Pr(t|c)
 
 The required learned problem can then be represented as:
-max $$\underset{i=1}{\overset{N}{\Pi}} Pr(e_i, t_i) = max \underset{i=1}{\overset{N}{\Pi}} Pr(e_i)\sum Pr(c|e_i)Pr(t_i|c)$$            (1)
+$$max \underset{i=1}{\overset{N}{\Pi}} Pr(e_i, t_i) = max \underset{i=1}{\overset{N}{\Pi}} Pr(e_i)\sum Pr(c|e_i)Pr(t_i|c)   \space\space (1)$$
 
 where N is the number of labeled queries present. 
 
